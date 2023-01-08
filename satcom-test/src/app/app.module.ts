@@ -8,7 +8,7 @@ import { CustomerComponent } from './components/customer/customer.component';
 import { PremiumProductComponent } from './components/premium-product/premium-product.component';
 import { ListComponent } from './components/list/list.component';
 import { ViewerComponent } from './components/viewer/viewer.component';
-import {FormsModule, ReactiveFormsModule} from "@angular/forms";
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -17,15 +17,10 @@ import {FormsModule, ReactiveFormsModule} from "@angular/forms";
     CustomerComponent,
     PremiumProductComponent,
     ListComponent,
-    ViewerComponent
+    ViewerComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    FormsModule,
-    ReactiveFormsModule,
-  ],
+  imports: [BrowserModule, AppRoutingModule, FormsModule, ReactiveFormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
